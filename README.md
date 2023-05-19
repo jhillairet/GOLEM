@@ -10,5 +10,6 @@ Some work, modules and examples around the GOLEM tokamak
 
 The documentation can be built using [mkdocs](https://www.mkdocs.org):
 
-* `mkdocs serve` - Start the live-reloading docs server.
 * `mkdocs build` - Build the documentation site.
+* `mkdocs serve` - Start the live-reloading docs server.
+* `mkdocs gh-deploy` - Push the site to the `gh-pages` branch.
