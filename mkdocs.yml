@@ -1,0 +1,20 @@
+site_name: GOLEM Tokamak Data Analysis Examples
+site_author: Julien Hillairet
+repo_url: https://github.com/jhillairet/GOLEM
+
+nav:
+  - Home: index.md
+  - Getting Data:
+    - From .npz Files: GOLEM Example_Get Data from npz file.ipynb
+    - From ASCII Files: GOLEM Example_Get Data from ASCII.ipynb
+    - From Config Files: GOLEM Example_Get Data from config files.ipynb
+  - Analysis Examples:
+    - Energy Confinement Time: GOLEM Example_Energy Confinement Time Calculation.ipynb
+    - Confinement Time Scaling Law: GOLEM_Confinement Time Scaling Law from large dataset.ipynb
+
+plugins:
+  - search
+  - mkdocs-jupyter:
+      ignore_h1_titles: True
+      execute: False
+      include_source: True
